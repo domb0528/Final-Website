@@ -2,8 +2,8 @@ ul {
     list-style: none;
 }
 
-nav {
-    
+li {
+    display: inline;
 }
 
 h1 {
@@ -11,5 +11,19 @@ h1 {
      
 }
 
+img {
+    max-width: 30%;
+}
 
+.div-wrapper {
+position: relative;
+height: 1000px;
+width: 1000px;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
 
