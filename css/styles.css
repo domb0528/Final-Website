@@ -1,9 +1,17 @@
+body {
+    background-image: url(../images/backgroundimage1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
 ul {
     list-style: none;
 }
 
 li {
-    display: inline;
+    color: white;
+    padding: 10px;
 }
 
 h1 {
@@ -29,5 +37,8 @@ width: 1000px;
 
 footer {
     text-align: center;
-
+    
+}
+h2 {
+    color: rgb(218, 106, 81);
 }
