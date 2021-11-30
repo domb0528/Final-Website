@@ -1,18 +1,16 @@
 body {
-    background-image: url(../images/backgroundimage1.jpeg);
+    background-color: aqua;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
 }
-ul {
+ul li {
     list-style: none;
-}
-
-li {
-    color: white;
+    color: black;
     padding: 10px;
 }
+
 
 h1 {
      background-color: rgb(218, 106, 81);
@@ -37,8 +35,18 @@ width: 1000px;
 
 footer {
     text-align: center;
+    display: block;
+    padding: 0;
+    list-style-type: none;
+    
     
 }
 h2 {
     color: rgb(218, 106, 81);
+}
+
+
+
+iframe {
+    float: right;
 }
