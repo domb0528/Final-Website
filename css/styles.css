@@ -1,25 +1,37 @@
 body {
-    background-color: aqua;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 
 }
+
+
+ul li :hover {
+    color: rgb(255, 123, 0);
+}
+
 ul li {
     list-style: none;
-    color: black;
+    display: inline-block;
+    padding: 5px 5px; 
+}
+
+.navbar {
+    background-color: aqua;
+    display: inline-block;
+    
+}
+
+.stat {
+    color: aqua;
+    font-weight: bold;
     padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
 
 
-h1 {
-     background-color: rgb(218, 106, 81);
-     
-}
-
-img {
-    max-width: 30%;
-}
 
 .div-wrapper {
 position: relative;
@@ -33,20 +45,54 @@ width: 1000px;
     bottom: 0%;
 }
 
-footer {
+footer :hover {
+    color: rgb(255, 123, 0);   
+}
+
+.contact {
     text-align: center;
-    display: block;
-    padding: 0;
-    list-style-type: none;
-    
-    
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    background-color: aqua;
+    margin: 30px 20px 15px 30px;
 }
+
 h2 {
-    color: rgb(218, 106, 81);
+    color: rgb(255, 123, 0);
 }
 
+.schedule {
+    float: right;
+}
 
+h3 {
+    text-align: center;
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+}
+
+.statpage {
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
 
 iframe {
     float: right;
+}
+
+.logo {
+    -webkit-animation: animatelogo 20s linear infinite;
+	-moz-animation: animatelogo 20s linear infinite;
+	animation: animatelogo 20s linear infinite;
+}
+
+@keyframes animatelogo {
+    0% {
+        margin-left: -300px;
+    }
+    100% {
+        margin-left: 100%;
+    }
 }
