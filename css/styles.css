@@ -14,13 +14,14 @@ ul li :hover {
 ul li {
     list-style: none;
     display: inline-block;
-    padding: 5px 5px; 
+    padding: 5px 5px;
+    font-family: 'Unkempt' sans-serif;
+
 }
 
 .navbar {
     background-color: aqua;
     display: inline-block;
-    
 }
 
 .stat {
@@ -60,6 +61,8 @@ footer :hover {
 
 h2 {
     color: rgb(255, 123, 0);
+    font-family: 'Road Rage', cursive;
+    font-size: 38px;
 }
 
 .schedule {
@@ -70,6 +73,8 @@ h3 {
     text-align: center;
     color: white;
     font-weight: bold;
+    font-family: 'Road Rage', cursive;
+    font-size: 38px;
 }
 
 .rosterpage {
@@ -78,10 +83,13 @@ h3 {
     padding: 15px;
     margin: 25px;
     font-size: 20px;
+    font-family: 'Road Rage', cursive;
 }
 
 h4 {
     color: white;
+    font-family: 'Road Rage', cursive;
+    font-size: 38px;
     
 }
 
